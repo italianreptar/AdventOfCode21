@@ -68,7 +68,7 @@ def get_last_winner(drawings, boards, marks):
             
             # See if any boards won
             if check_winner(board, mark):
-                # Append THERE INDEX to a list as a surprise tool for later
+                # Append those indices to a list as a surprise tool for later
                 winners.append(ii)
                 
         # its later; loop over this list BACKWARDS (to avoid index issues)
